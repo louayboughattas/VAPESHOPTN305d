@@ -9,7 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   
-  <link rel="stylesheet" href="New folder/style.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>BurgerBase</title>
 </head>
@@ -70,17 +70,11 @@
       <h2>Contact Us</h2>
 
       <form action="https://formsubmit.co/boughattasll@gmail.com" method="POST">
-        <label for="name">Name</label>
-        <input id="name" type="text">
-
-        <label for="email">Email</label>
-        <input id="email" type="email">
-
-        <label for="comments">Comments</label>
-        <textarea id="comments"></textarea>
-        <input class="button" type="submit" value="Submit">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <button type="submit">Send</button>
       </form>
-    </section>
+     
 
     <!-- footer -->
     <footer id="footer">
@@ -89,6 +83,6 @@
   </div>
 
   <!-- scripts -->
-  <script src="New folder (2)/app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
